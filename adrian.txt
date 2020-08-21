@@ -1,0 +1,16 @@
+mkdir SoftDevI
+cd SoftDevI
+mkdir Unit01
+cd Unit01
+nano file01.txt
+cp file01.txt.save file02.txt
+cd SoftDevI
+cd Unit01
+mkdir Assignment01
+cd Assignment01
+mkdir Adrian
+mv .\Documents\file02.txt .\SoftDevI\Unit01\Assignment01\Adrian
+nano file02.txt
+cd ..
+cd ..
+rm -r Assignment01
